@@ -1,0 +1,17 @@
+<html>
+<head>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+
+</head>
+
+<script>
+var band = function(){
+	return (this.range()[1]-this.range()[0])/(this.domain()[1]-this.domain()[0]);
+}
+
+x.band = band;
+y.band = band;
+xc.band = band;
+yc.band = band;
+</script>
+</html>
